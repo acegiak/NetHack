@@ -464,7 +464,7 @@ NEARDATA struct permonst mons_init[] = {
         SIZ(1250, 250, MS_GROWL, MZ_LARGE), 0, 0,
         M1_HUMANOID | M1_OMNIVORE, M2_STRONG | M2_COLLECT,
         M3_INFRAVISIBLE | M3_INFRAVISION, 5, CLR_BROWN),
-    MON("harpy", S_HUMANOID, LVL(4, 15, 0, 0, -6), (G_GENO | 1),
+    MON("harpy", S_HUMANOID, LVL(4, 15, 0, 0, -6), (G_GENO | 2),
         A(ATTK(AT_CLAW, AD_PHYS, 1, 6), ATTK(AT_CLAW, AD_PHYS, 1, 6),
           ATTK(AT_BITE, AD_PHYS, 1, 4), NO_ATTK, NO_ATTK, NO_ATTK),
         SIZ(750, 300, MS_ORC, MZ_HUMAN), 0, 0,
